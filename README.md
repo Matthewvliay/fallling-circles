@@ -5,4 +5,4 @@ Falling  circles! Neat background effect where circles come down at different pl
 The color of the circles can be randomized on click.
 
 
-<b> live demo </b> easy-push.surge.sh
+<b> Live Demo: </b> <a href="easy-push.surge.sh"> Link</a>
