@@ -1,0 +1,35 @@
+.lightContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+    overflow: hidden;
+}
+
+.light {
+    border: 2px solid black;
+    position: fixed;
+    background-color: green;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+body {
+    margin: 0;
+    top: 0
+}
+
+
+.header-container {
+    text-align: center;
+    margin: auto;
+}
+
+#lights-amount {
+    width: 50px;
+    margin-top: 1em;
+}
