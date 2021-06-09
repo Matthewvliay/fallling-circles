@@ -1,10 +1,13 @@
+//Grab button
+const button = document.getElementById('change')
 
 let lights = []
-let numberOfLights = 30
+const numberOfLights = 50
+//Client screen size
 let bWidth
 let bHeight
 
-// Flag to reset the position of the lights
+// Flag to reset the position of the snowflakes
 let resetPosition = false;
 
 // Handle accessibility
@@ -32,7 +35,7 @@ function setup() {
 
 
 setup()
-//it starts
+
 
 
 //constructor for the light object
@@ -54,7 +57,7 @@ function Light(element, speed, xPos, yPos) {
     this.element.style.opacity = (1 + Math.random()) / 3
 
 }
-//random color generator for lights
+
 function randomColor() {
     const letters = '0123456789ABCDEF'
 
